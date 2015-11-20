@@ -22,16 +22,15 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
+    
+    // Returns text that appears on clicking any button
     public String getToastText(String appName){
         String genericText =  getResources().getString(R.string.genericText);
         return genericText + " " + appName.toLowerCase() + " app";
     }
 
 
-
     public void clickProject(View v) {
-        // 1) Possibly check for instance of first
         Button b = (Button)v;
         String appname = b.getText().toString();
         String toastText = getToastText(appname);
