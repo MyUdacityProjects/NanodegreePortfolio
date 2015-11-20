@@ -22,14 +22,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app1"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#F08C35"
+            android:id="@+id/spotify_app"
+            style="@style/AppBtn"
             android:onClick="clickProject"
-            android:text="@string/app1"
-            android:textColor="#FFF" />
+            android:text="@string/spotify_app" />
 
     </LinearLayout>
 
@@ -41,14 +37,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app2"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#F08C35"
+            android:id="@+id/scores_app"
+            style="@style/AppBtn"
             android:onClick="clickProject"
-            android:text="@string/app2"
-            android:textColor="#FFF" />
+            android:text="@string/scores_app" />
 
     </LinearLayout>
 
@@ -59,14 +51,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app3"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#F08C35"
+            android:id="@+id/library_app"
+            style="@style/AppBtn"
             android:onClick="clickProject"
-            android:text="@string/app3"
-            android:textColor="#FFF" />
+            android:text="@string/library_app"/>
 
     </LinearLayout>
 
@@ -77,14 +65,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app4"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#F08C35"
+            android:id="@+id/build_it_app"
+            style="@style/AppBtn"
             android:onClick="clickProject"
-            android:text="@string/app4"
-            android:textColor="#FFF" />
+            android:text="@string/build_it_app"/>
 
     </LinearLayout>
 
@@ -95,14 +79,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app5"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#F08C35"
+            android:id="@+id/xyz_reader_app"
+            style="@style/AppBtn"
             android:onClick="clickProject"
-            android:text="@string/app5"
-            android:textColor="#FFF" />
+            android:text="@string/xyz_reader_app"/>
 
     </LinearLayout>
 
@@ -113,14 +93,11 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app6"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/capstone_app"
+            style="@style/AppBtn"
             android:background="#D73357"
             android:onClick="clickProject"
-            android:text="@string/app6"
-            android:textColor="#FFF" />
+            android:text="@string/capstone_app" />
 
     </LinearLayout>
 
